@@ -1,0 +1,131 @@
+.background-elements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bg-element {
+  position: absolute;
+  opacity: 0.6;
+}
+
+.bg-element-1 {
+  width: 51px;
+  height: 47px;
+  top: 14.06%;
+  left: 16.06%;
+}
+
+.bg-element-2 {
+  width: 89px;
+  height: 71px;
+  top: 23.3%;
+  right: 5.15%;
+}
+
+.bg-element-3 {
+  width: 133px;
+  height: 67px;
+  top: 24.84%;
+  right: 16.32%;
+}
+
+.bg-element-4 {
+  width: 105px;
+  height: 48px;
+  top: 15.06%;
+  left: 26.7%;
+}
+
+.bg-element-5 {
+  width: 93px;
+  height: 46px;
+  top: 15.06%;
+  right: 35.14%;
+}
+
+.bg-element-6 {
+  width: 177px;
+  height: 45px;
+  top: 37.15%;
+  left: 35.14%;
+}
+
+.bg-element-7 {
+  width: 6px;
+  height: 6px;
+  top: 67.64%;
+  left: 0.18%;
+}
+
+.bg-element-8 {
+  width: 8px;
+  height: 26px;
+  top: 69.86%;
+  left: 3.2%;
+}
+
+.bg-element-9 {
+  width: 8px;
+  height: 26px;
+  top: 69.92%;
+  left: 1.51%;
+}
+
+.bg-element-10 {
+  width: 5px;
+  height: 20px;
+  top: 76.59%;
+  left: 0.23%;
+}
+
+.bg-element-11 {
+  width: 89px;
+  height: 15px;
+  top: 14.87%;
+  left: 56.37%;
+}
+
+.bg-element-12 {
+  width: 120px;
+  height: 15px;
+  top: 15.45%;
+  left: 15.39%;
+}
+
+.bg-element-13 {
+  width: 120px;
+  height: 15px;
+  top: 16.71%;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .bg-element {
+    opacity: 0.3;
+  }
+  
+  .bg-element-1,
+  .bg-element-2,
+  .bg-element-3,
+  .bg-element-4,
+  .bg-element-5,
+  .bg-element-6 {
+    width: 50%;
+    height: auto;
+  }
+  
+  .bg-element-7,
+  .bg-element-8,
+  .bg-element-9,
+  .bg-element-10,
+  .bg-element-11,
+  .bg-element-12,
+  .bg-element-13 {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.features {
+  padding: 28px 0 0;
+}
+
+.features-container {
+  max-width: 1644px;
+  margin: 0 auto;
+  padding: 0 266px;
+}
+
+@media (max-width: 1400px) {
+  .features-container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .features-container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,89 @@
+.logo-section {
+  padding: 0 0 82px;
+}
+
+.logo-container {
+  max-width: 1503px;
+  margin: 0 auto;
+  padding: 0 266px;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 47px;
+  gap: 20px;
+}
+
+.partner-logo {
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;
+}
+
+.logo-section-title {
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+@media (max-width: 1400px) {
+  .logo-container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo-container {
+    padding: 0 50px;
+  }
+  
+  .logo-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    padding: 0 20px;
+  }
+  
+  .logo-row {
+    gap: 20px 15px;
+  }
+  
+  .partner-logo {
+    height: 28px;
+  }
+  
+  .logo-section-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-row {
+    gap: 15px 10px;
+  }
+  
+  .partner-logo {
+    height: 24px;
+  }
+  
+  .logo-section-title {
+    font-size: 16px;
+  }
+}
